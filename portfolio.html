@@ -9,38 +9,39 @@
     <link rel="stylesheet" href="https://github.com/sindresorhus/modern-normalize/blob/main/modern-normalize.css">
     <link rel="stylesheet" href="./css/style.css">
 </head>
-<body class="page">
-  <header class="page-header">
-    <div class="container main-nav"> 
-     <nav class="nav-container">
-       <a href="./index.html" class="logo">Web<span class="logo logo-span">Studio</span></a>
-       <ul class="site-nav list">
-         <li class="item"><a href="./index.html" class="link">Студия</a></li> 
-         <li class="item"><a href="./portfolio.html" class="link current">Портфолио</a></li>
-         <li class="item"><a href="" class="link">Контакты</a></li>
+<body>
+
+  <header class="header">
+    <div class="container header__container"> 
+     <nav class="header__nav nav">
+       <a href="./index.html" class="nav__logo">Web<span class="nav__logo nav__logo-header">Studio</span></a>
+       <ul class="sitenav list">
+         <li class="sitenav__item"><a href="./index.html" class="sitenav__link sitenav__link-current">Студия</a></li> 
+         <li class="sitenav__item"><a href="./portfolio.html" class="sitenav__link">Портфолио</a></li>
+         <li class="sitenav__item"><a href="" class="sitenav__link">Контакты</a></li>
        </ul>  
      </nav>
      
-     <ul class="auth-nav list">
-         <li class="item">
-           <a class="icon-link mail" href="mailto:info@devstudio.com">
-             <svg class="nav-icon" width="16" height="12">
+     <ul class="authnav list">
+         <li class="authnav__item">
+           <a class="authnav__link" href="mailto:info@devstudio.com">
+             <svg class="authnav__icon" width="16" height="12">
                <use href="./images/icons.svg#icon-envelope"></use>
              </svg>
              info@devstudio.com
            </a>
            
          </li>
-         <li class="item">
-           <a class="icon-link phone" href="tel:+380961111111"">
-             <svg class="nav-icon" width="10" height="16">
+         <li class="authnav__item">
+           <a class="authnav__link" href="tel:+380961111111"">
+             <svg class="authnav__icon" width="10" height="16">
                <use href="./images/icons.svg#icon-smartphone"></use>
              </svg>
              +38 096 111 11 11
            </a>
      </ul>
     </div>
- </header>
+</header>
 
     <main>
         <section class="section">
@@ -174,16 +175,16 @@
     </main>
 
 
-    <footer class="footer">
 
+    <footer class="footer">
       <div class="container footer-container">
         <div class="footer-links">
-          <a href="./index.html" class="logo">Web<span class="logo logo-span">Studio</span></a>
-        <address class="footer-container address-nav">
-          <ul class="auth-nav list">
-            <li class="footer-link"><a href="https://goo.gl/maps/iULGJr1VuEJqhyds5" target="_blank" rel="noopener noreferrer nofollow" class="link address-link">г. Киев, пр-т Леси Украинки, 26</a></li>
-            <li class="footer-link"><a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
-            <li class="footer-link"><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
+          <a href="./index.html" class="nav__logo">Web<span class="nav__logo nav__logo-footer">Studio</span></a>
+        <address class="footer-container address">
+          <ul class="authnav-footer list">
+            <li class="footer-link"><a href="https://goo.gl/maps/iULGJr1VuEJqhyds5" target="_blank" rel="noopener noreferrer nofollow" class="authnav__link authnav__link-footer authnav__link-address">г. Киев, пр-т Леси Украинки, 26</a></li>
+            <li class="footer-link"><a href="mailto:info@devstudio.com" class="authnav__link authnav__link-footer">info@devstudio.com</a></li>
+            <li class="footer-link"><a href="tel:+380961111111" class="authnav__link authnav__link-footer">+38 096 111 11 11</a></li>
           </ul>
         </address>
         </div>
@@ -244,5 +245,6 @@
 
       </div>
    </footer>
+
 </body>
 </html>
