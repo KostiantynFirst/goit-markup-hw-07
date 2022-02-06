@@ -431,13 +431,13 @@ body {
     letter-spacing: 0.03em;
     }
 
-.button.primary {
+.button__primary {
     color: var(--secondary-text-color);
     background-color: var(--accent-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
-.button.primary.btn {
+.button__primary.btn {
     box-shadow: none;
 }
 
@@ -691,11 +691,11 @@ body {
     transform: translateY(170%);
 }
 
-.footer-button-container {
+.footer__button {
     position: relative;
 }
 
-.footer-button-container .button {
+.button--footer {
     padding: 10px 62px 10px 29px;
     width: 148px;
 }
