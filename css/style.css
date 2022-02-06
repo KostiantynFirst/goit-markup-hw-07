@@ -198,7 +198,7 @@ body {
 
 /* footer authnav */
 
-.authnav-footer {
+.authnav--footer {
     display: block;
     text-align: left;
 }
@@ -375,31 +375,28 @@ body {
     border-radius: 0px 0px 4px 4px;
 }
 
-.persons > .item:not(:last-child) {
+.persons__item:not(:last-child) {
     margin-right: 30px;
 }
 
-.persons .title {
-    min-width: 151px;
-    color: var(--title-text-color);
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.18;
+.persons__block {
+    padding: 30px 60px;
     text-align: center;
 }
 
-.persons img {
-    display: block;
+.persons__title {
+    min-width: 151px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    color: var(--title-text-color);
 }
 
-.persons .jobs {
+.persons__jobs {
     font-size: 16px;
     line-height: 1.19;
     justify-content: center;
-}
-
-.persons-block {
-    padding: 30px 60px;
 }
 
 
@@ -559,7 +556,7 @@ body {
 
 /* Clients */
 
-.clients-list {
+.client__list {
     display: flex;
 }
 
@@ -721,7 +718,7 @@ body {
 
 /* Social-media icons */
 
-.social-media {
+.socialmedia {
     display: flex;
     
     margin-right: auto;
@@ -734,16 +731,16 @@ body {
     
 }
 
-.social-media-item {
+.socialmedia__item {
     width: 44px;
     height: 44px;
 }
 
-.social-media-item:not(:last-child) {
+.socialmedia__item:not(:last-child) {
     margin-right: 10px;
 }
 
-.social-media-link {
+.socialmedia__link {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -757,7 +754,7 @@ body {
     transition: background-color 250ms var(--timing-function);
 }
 
-.social-media-icon {
+.socialmedia__icon {
     display: block;
     text-align: center;
     fill: currentColor;
@@ -765,33 +762,33 @@ body {
     transition: fill 250ms var(--timing-function);
 }
 
-.social-media-link:hover .social-media-icon,
-.social-media-link:focus .social-media-icon {
+.socialmedia__link:hover .socialmedia__icon,
+.socialmedia__link:focus .socialmedia__icon {
     fill: var(--secondary-text-color);
 }
 
-.social-media-link:hover,
-.social-media-link:focus {
+.socialmedia__link:hover,
+.socialmedia__link:focus {
     background-color: var(--accent-color);
 }
 
 /* Footer social-media links */
 
-.social-media.bottom {
+.socialmedia--footer {
     margin-bottom: 0;
 }
 
-.social-media-link.bottom {
+.socialmedia__link--footer {
     color: var(--secondary-text-color);
     background-color: rgba(255, 255, 255, 0.1);;
 }
 
-.social-media-icon.bottom {
+.socialmedia__icon--footer {
     fill: currentColor;
 }
 
-.social-media-link.bottom:hover,
-.social-media-link.bottom:focus {
+.socialmedia__link--footer:hover,
+.socialmedia__link--footer:focus {
     background-color: var(--accent-color);
 }
 
