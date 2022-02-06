@@ -327,28 +327,20 @@ body {
     display: flex;
 }
 
-.jobs > .item {
+.jobs__item {
     width: 370px;
 }
 
-.jobs > .item:not(:last-child) {
+.jobs__item:not(:last-child) {
     margin-right: 30px;
 }
 
-.jobs-img {
-    position: relative;
-}
-
-.jobs img {
-    display: block;
-}
-
-.thumb {
+.jobs__thumb {
     /* height: 294px; */
     position: relative;
 }
 
-.jobs-text {
+.jobs__text {
     width: 100%;
     margin: 0;
     padding-left: 83px;
@@ -376,7 +368,7 @@ body {
     display: flex;
 }
 
-.persons > .item {
+.persons__item {
     width: 270px;
     background-color: var(--secondary-text-color);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
