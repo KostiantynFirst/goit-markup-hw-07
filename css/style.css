@@ -456,15 +456,17 @@ body {
 
 /* Portfolio */
 
-.potrtfolio-btn-list {
+.btns {
     display: flex;
     margin-bottom: 56px;
     justify-content: center;
 }
 
-.potrtfolio-btn-list > .button-list:not(:last-child) {
+.btns__item:not(:last-child) {
     margin-right: 8px;
 }
+
+
 
 .portfolio-list {
     display: flex;
