@@ -934,17 +934,22 @@ textarea {
     color: rgba(117, 117, 117, 0.5);
 }
 
-.form__field--name {
+/* .form__field--name {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     margin-top: 20px;
     margin-bottom: 30px;
-}
+} */
 
-.form-field-checkbox .form-input {
-    
+.checkbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
     margin-right: 8.5px;
 
     font-size: 14px;
@@ -953,18 +958,23 @@ textarea {
     transition: border 250ms var(--timing-function), outline 250ms var(--timing-function);
 }
 
-.form-field-checkbox .link {
-    color: var(--accent-color);
-}
 
-.form-checkbox {
+.checkbox__input {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
     position: absolute;
+
+/*       
+    margin-right: 8.5px;
+
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    transition: border 250ms var(--timing-function), outline 250ms var(--timing-function); */
 }
 
-.form-field-checkbox .icon {
+.checkbox__icon {
     display: inline-block;
     width: 16px;
     height: 15px;
@@ -973,14 +983,15 @@ textarea {
     margin-right: 7px;
 }
 
-.form-field-checkbox .link {
+.checkbox__link {
     margin-left: 6px;
     text-decoration: none;
+    color: var(--accent-color);
     border-bottom: 1px solid var(--accent-color);
 
 }
 
-.form-checkbox:checked + .icon {
+.checkbox__input:checked + .checkbox__icon {
     border-color: var(--accent-color);
     background-color: var(--accent-color);
     background-image: url('../images/icon-check.svg');
@@ -988,43 +999,44 @@ textarea {
     background-origin: border-box;
 }
 
-.form-field-checkbox .form-label {
+.checkbox__label {
     display: flex;
     flex-direction: row-reverse;
+    align-items:center;
 }
 
-.form-label {
+
+
+.form__label {
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.01em;
 }
 
-.form-input:focus,
-.form-input:hover {
+.form__input:focus,
+.form__input:hover {
     border: 1px solid var(--accent-color);
     outline: var(--accent-color);
     cursor: pointer;
 }
 
-.form-input:focus + .form-icon {
+.form__input:focus + .form__icon {
     fill: var(--accent-color);
 }
 
-.form-field-checkbox .form-label {
+.form__checkbox--label {
     margin-bottom: 0;
     font-size: inherit;
 }
 
-.form-field-checkbox .button {
-    padding-left: 56px;
-    padding-right: 55px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-}
-
-.button-form {
+.button__form {
     margin-left: auto;
     margin-right: auto;
     width: 200px;
+
+    padding-left: 56px;
+    padding-right: 55px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .form__icon {
