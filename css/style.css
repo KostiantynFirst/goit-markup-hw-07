@@ -422,8 +422,7 @@ body {
     transition: color 250ms var(--timing-function), background-color 250ms var(--timing-function), box-shadow 250ms var(--timing-function);
 }
 
-.btn {
-    border: none;
+.button__btn {
     padding: 6px 22px;
     min-width: 73px;
     font-weight: 500;
@@ -437,32 +436,23 @@ body {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
-.button__primary.btn {
-    box-shadow: none;
-}
 
-.button.secondary {
+.button__secondary {
     color: var(--title-text-color);
     background-color: var(--background-secondary-color);
 }
 
-.button.primary:hover,
-.button.primary:focus{
+.button__primary:hover,
+.button__primary:focus{
     color: var(--title-text-color);
     background-color: var(--background-secondary-color);
 }
 
-.button.secondary:hover,
-.button.secondary:focus {
+.button__secondary:hover,
+.button__secondary:focus {
     color: var(--secondary-text-color);
     background-color: var(--accent-color);
 }
-
-.button.primary.btn:hover,
-.button.primary.btn:focus {
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-}
-
 
 /* Portfolio */
 
