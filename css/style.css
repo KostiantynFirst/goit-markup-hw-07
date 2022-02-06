@@ -817,7 +817,7 @@ body {
     border-radius: 4px;
 }
 
-.modal-close {
+.modalclose {
     position: absolute;
     top: 0;
     right: 0;
@@ -846,12 +846,12 @@ body {
   
 }
 
-.modal-close-icon {
+.modalclose__icon {
     transition: fill 250ms var(--timing-function);
 }
 
-.modal-close:hover .modal-close-icon,
-.modal-close:focus .modal-close-icon  {
+.modalclose:hover .modalclose__icon,
+.modalclose:focus .modalclose__icon  {
     fill: var(--accent-color);
 }
 
@@ -876,36 +876,32 @@ textarea {
 
 }
 
-.form-title {
+.form__title {
     font-size: 20px;
     line-height: 1.15;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--title-text-color);
-
+    margin-bottom: 12px;
 }
 
-.form-field.name {
-    margin-top: 12px;
-}
-
-.form-field {
+.form__field {
     display: flex;
     flex-direction: column;
 
     margin-top: 10px;
 }
 
-.form-field .form-label {
+.form__label {
     margin-bottom: 4px;
 }
 
-.form-input-container {
+.form__container {
     position: relative;
     max-width: 448px;
 }
 
-.form-input-container .form-input {
+.form__input {
     width: 100%;
     height: 40px;
     padding-top: 14px;
@@ -920,7 +916,7 @@ textarea {
     outline: none;
 }
 
-.form-field .form-input-placeholder {
+.form__input--placeholder {
     height: 120px;
     padding-top: 12px;
     padding-bottom: 12px;
@@ -931,15 +927,14 @@ textarea {
 }
 
 
-
-.form-field .form-input-placeholder::placeholder {
+.form__input--placeholder::placeholder {
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.01em;
     color: rgba(117, 117, 117, 0.5);
 }
 
-.form-field-checkbox {
+.form__field--name {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -1032,7 +1027,7 @@ textarea {
     width: 200px;
 }
 
-.form-icon {
+.form__icon {
     position: absolute;
     top: 50%;
     left: 15px;
