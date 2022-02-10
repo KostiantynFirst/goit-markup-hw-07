@@ -1,0 +1,36 @@
+.jobs {
+    display: flex;
+
+    &__item {
+        width: 370px;
+    }
+
+    &__item:not(:last-child) {
+        margin-right: 30px;
+    }
+
+    &__thumb {
+    /* height: 294px; */
+        position: relative;
+    }
+
+    &__text {
+        width: 100%;
+        margin: 0;
+        padding-left: 83px;
+        padding-right: 82px;
+        padding-top: 27px;
+        padding-bottom: 27px;
+        white-space: nowrap;
+        line-height: 1.14;
+        letter-spacing: 0.03em;
+        text-align: center;
+        text-transform: uppercase;
+        color: $secondary-text-color;
+        background-color: rgba(47, 48, 58, 0.8);
+        position: absolute;
+        bottom: 0;
+    }
+
+}
+
