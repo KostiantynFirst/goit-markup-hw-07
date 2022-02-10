@@ -800,7 +800,7 @@ body {
 }
 
 .portfolio__title {
-  color: var(--title-text-color);
+  color: #212121;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
