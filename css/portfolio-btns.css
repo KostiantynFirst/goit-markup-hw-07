@@ -1,0 +1,14 @@
+.btns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 56px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.btns__item:not(:last-child) {
+  margin-right: 8px;
+}
+/*# sourceMappingURL=portfolio-btns.css.map */

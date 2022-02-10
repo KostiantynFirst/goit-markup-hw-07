@@ -9,6 +9,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    background-color: $background-third-color;
 
     &__title {
         margin-bottom: 30px;
@@ -26,8 +27,4 @@
 
 }
 
-.hero, 
-.footer {
-    background-color: $background-third-color;
-}
 
