@@ -1,0 +1,16 @@
+.header {
+    background-color: var(--secondary-text-color);
+    border-bottom: 1px solid #ECECEC;
+
+
+    &__container {
+        display: flex;
+        align-items: center;
+    }
+
+    &__nav {
+        display: flex;
+        align-items: center;
+    }
+
+}

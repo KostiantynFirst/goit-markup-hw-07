@@ -93,7 +93,7 @@ body {
 
 /* Logo */
 
-.nav__logo {
+.logo {
     color: var(--accent-color);
     font-family: Raleway, sans-serif;
     font-size: 26px;
@@ -101,11 +101,11 @@ body {
     text-decoration: none;
 }
 
-.nav__logo-header {
+.logo-header {
     color: var(--title-text-color);
 }
 
-.nav__logo-footer {
+.logo-footer {
     color: var(--secondary-text-color);
 }
 
