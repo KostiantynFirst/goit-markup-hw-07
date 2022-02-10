@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AAAA,KAAK,CAAC;EACF,OAAO,EAAE,IAAI;EACb,aAAa,EAAE,IAAI;EACnB,eAAe,EAAE,MAAM;CAM1B;;AAHI,AAAD,WAAO,AAAA,IAAK,CAAA,WAAW,EAAE;EACrB,YAAY,EAAE,GAAG;CACpB",
-    "sources": [
-        "../sass/components/portfolio-btns.scss"
-    ],
-    "names": [],
-    "file": "portfolio-btns.css"
-}

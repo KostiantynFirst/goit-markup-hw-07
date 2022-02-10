@@ -7,6 +7,15 @@ img {
     display: block;
 }
 
+textarea {
+    resize: none;
+}
+
+input {
+    margin: 0;
+    padding: 0;
+}
+
 .list {
     list-style: none;
 }
