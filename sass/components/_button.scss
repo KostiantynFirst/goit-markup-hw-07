@@ -1,0 +1,65 @@
+.button {
+    
+    border:none;
+    border-radius: 4px;
+    padding: 10px 32px;
+    min-width: 200px;
+
+    color: $secondary-text-color;
+    background-color: $accent-color;
+    cursor: pointer;
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.06em;
+    text-align: center;
+
+    transition: color 250ms $timing-function, background-color 250ms $timing-function, box-shadow 250ms $timing-function;
+
+
+    &__btn {
+        padding: 6px 22px;
+        min-width: 73px;
+        font-weight: 500;
+        line-height: 1.6;
+        letter-spacing: 0.03em;
+}
+
+
+    .button__primary:hover &,
+    .button__primary:focus & {
+        box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+        border-radius: 4px;
+    }
+
+}
+
+.button__primary {
+    color: $secondary-text-color;
+    background-color: $accent-color;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
+    &:hover,
+    &:focus{
+        color: $title-text-color;
+        background-color: $background-secondary-color;  
+    }
+}
+
+
+.button__secondary {
+    color: $title-text-color;
+    background-color: $background-secondary-color;
+
+    &:hover,
+    &:focus {
+        color: $background-secondary-color;
+        background-color: $accent-color;
+    }
+}
+
+
+
+
+

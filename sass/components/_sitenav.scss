@@ -11,7 +11,7 @@
 .sitenav__link {
     position: relative;
     display: block;
-    color: var(--title-text-color);
+    color: $title-text-color;
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
@@ -22,11 +22,11 @@
     transition: color 250ms $timing-function;
 
 
-    &-current {
+    &--current {
         color: $accent-color; 
     }
 
-    &-current::after {
+    &--current::after {
         position: absolute;
         bottom: 0;
         left: 0;

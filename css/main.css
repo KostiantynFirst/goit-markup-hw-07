@@ -316,7 +316,7 @@ body {
 }
 
 .header {
-  background-color: var(--secondary-text-color);
+  background-color: #FFFFFF;
   border-bottom: 1px solid #ECECEC;
 }
 
@@ -352,7 +352,7 @@ body {
 .sitenav__link {
   position: relative;
   display: block;
-  color: var(--title-text-color);
+  color: #212121;
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -363,11 +363,11 @@ body {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.sitenav__link-current {
+.sitenav__link--current {
   color: #2196F3;
 }
 
-.sitenav__link-current::after {
+.sitenav__link--current::after {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -503,5 +503,133 @@ body {
   line-height: 1.17;
   text-align: center;
   margin-bottom: 50px;
+}
+
+.features {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.features__icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 270px;
+  height: 120px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 30px;
+  background-color: #F5F4FA;
+  border-radius: 4px;
+}
+
+.features__title {
+  color: #212121;
+  font-size: inherit;
+  line-height: 1.14;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.features__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-preferred-size: calc((100% - 90px) / 4);
+      flex-basis: calc((100% - 90px) / 4);
+}
+
+.features__item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.jobs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.jobs__item {
+  width: 370px;
+}
+
+.jobs__item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.jobs__thumb {
+  /* height: 294px; */
+  position: relative;
+}
+
+.jobs__text {
+  width: 100%;
+  margin: 0;
+  padding-left: 83px;
+  padding-right: 82px;
+  padding-top: 27px;
+  padding-bottom: 27px;
+  white-space: nowrap;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background-color: rgba(47, 48, 58, 0.8);
+  position: absolute;
+  bottom: 0;
+}
+
+.workers {
+  background-color: #F5F4FA;
+}
+
+.persons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.persons__block {
+  padding: 30px 60px;
+  text-align: center;
+}
+
+.persons__title {
+  min-width: 151px;
+  margin-bottom: 10px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  color: #212121;
+}
+
+.persons__jobs {
+  font-size: 16px;
+  line-height: 1.19;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.persons__item {
+  width: 270px;
+  background-color: #FFFFFF;
+  -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.persons__item:not(:last-child) {
+  margin-right: 30px;
 }
 /*# sourceMappingURL=main.css.map */
