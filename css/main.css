@@ -299,6 +299,13 @@ body {
   letter-spacing: 0.03em;
 }
 
+.container {
+  margin: 0 auto;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 .logo {
   color: #2196F3;
   font-family: Raleway, sans-serif;
